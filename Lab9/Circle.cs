@@ -20,21 +20,20 @@ namespace Lab9
 
         }
 
-        public double Area
+
+
+        public static void GetArea()
         {
-            set { area = value; }
-            get { return area; }
+
+           return (Math.PI*(double.Radius*Radius);
+            //Console.WriteLine(GetArea);
         }
 
-
-        public double GetArea()
+        public static void GetCircumference()
         {
-            Console.WriteLine();
-        }
-
-        public double GetCurcumference()
-        {
-
+            return (2 * (Math.PI * Radius));
+            //Console.WriteLine(GetCircumference);
         }
     }
 }
+
