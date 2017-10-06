@@ -22,14 +22,14 @@ namespace Lab9
 
 
 
-        public static void GetArea()
+        public static double GetArea()
         {
 
-           return (Math.PI*(double.Radius*Radius);
+            return (Math.PI * (Radius * Radius));
             //Console.WriteLine(GetArea);
         }
 
-        public static void GetCircumference()
+        public static double GetCircumference()
         {
             return (2 * (Math.PI * Radius));
             //Console.WriteLine(GetCircumference);
